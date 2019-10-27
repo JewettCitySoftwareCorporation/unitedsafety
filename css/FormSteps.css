@@ -1,0 +1,85 @@
+body {
+  background: #d6e2f0;
+  font-family: Helvetica, sans-serif;
+	background: url(../images/Grunge\ metal\ background.jpg) repeat;
+}
+div h2 {
+  font-family: verdana;
+}
+.form-row {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  float: left;
+  width: 150px;
+  font-weight: bold;
+}
+
+#deliver-to #streetTitle {
+  height: 80px;
+}
+
+label {
+  font-weight: bold;
+  font-family: verdana;
+  margin-top: 14px;
+}
+
+input {
+  padding: 15px;
+  border: 1px solid rgb(242, 243, 244);
+  border-bottom: 2px solid rgb(220, 224, 225);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  width: 408px;
+  background: rgb(242, 243, 244);
+  color: rgb(89, 94, 95);
+}
+
+input.error {
+  background: rgb(243, 215, 212);
+  border: 1px solid rgb(243, 215, 212);
+  border-bottom: 2px solid rgb(181, 72, 59);
+}
+
+textarea {
+  padding: 15px;
+  border: 1px solid rgb(242, 243, 244);
+  border-bottom: 2px solid rgb(220, 224, 225);
+  box-sizing: border-box;
+  font-size: 15px;
+  width: 100%;
+  background: rgb(242, 243, 244);
+  color: rgb(89, 94, 95);
+  min-height: 100px;
+}
+textarea.error {
+  background: rgb(243, 215, 212);
+  border: 1px solid rgb(243, 215, 212);
+  border-bottom: 2px solid rgb(181, 72, 59);
+}
+
+ .two-inputs input{
+  width: 200px;
+  margin-right: 5px;
+}
+
+.three-inputs input{
+  width: 130px;
+  margin-right: 5px;
+}
+
+input#city {
+  width: 222px;
+}
+
+input#state {
+  width: 68px;
+}
+
+input#zipcode {
+  width: 100px;
+}
